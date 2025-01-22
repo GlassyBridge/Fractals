@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sierpinski Triangle</title>
+  <link rel="stylesheet" href="sierpinski.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sierpinski Triangle</h1>
+    <canvas id="sierpinskiCanvas"></canvas>
+    <div class="controls">
+      <label for="depth">Select Depth:</label>
+      <input type="number" id="depth" value="5" min="1" max="10">
+      <button id="drawButton">Draw Triangle</button>
+    </div>
+    <button onclick="window.location.href='/index.html'">Back</button>
+  </div>
+  <script src="sierpinski.js"></script>
+</body>
+</html>

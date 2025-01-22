@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koch Snowflake</title>
+  <link rel="stylesheet" href="koch.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Koch Snowflake</h1>
+    <canvas id="kochCanvas"></canvas>
+    <div class="controls">
+      <label for="depth">Select Depth:</label>
+      <input type="number" id="depth" value="3" min="0" max="6">
+      <button id="drawButton">Draw Snowflake</button>
+    </div>
+    <button onclick="window.location.href='/index.html'">Back</button>
+  </div>
+  <script src="koch.js"></script>
+</body>
+</html>
