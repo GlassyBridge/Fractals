@@ -3,19 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mandelbrot Set</title>
+  <title>Introduction to Fractals</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Mandelbrot Set Fractal</h1>
-    <canvas id="fractalCanvas"></canvas>
-    <div class="controls">
-      <button id="zoomIn">Zoom In</button>
-      <button id="zoomOut">Zoom Out</button>
-      <button id="reset">Reset</button>
+    <h1>Exploring Fractals</h1>
+    <p>
+      Fractals are intricate and fascinating structures that exhibit self-similarity at various scales. 
+      They are created by repeating simple mathematical processes. Fractals are not just beautiful; they 
+      also appear in nature, art, and various scientific fields such as computer graphics, 
+      physics, and biology. Their properties can model real-world phenomena, from the branching of trees 
+      to the fractal patterns on leaves and coastlines.
+    </p>
+    <h2>Explore Different Types of Fractals:</h2>
+    <div class="button-container">
+      <button onclick="window.location.href='mandelbrot.html'">Mandelbrot Set</button>
+      <button onclick="window.location.href='sierpinski.html'">Sierpinski Triangle</button>
+      <button onclick="window.location.href='koch.html'">Koch Snowflake</button>
+      <button onclick="window.location.href='tree.html'">Fractal Tree</button>
     </div>
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
