@@ -61,7 +61,7 @@ function drawFractal() {
     }
   }
 
-  ctx.drawImage(offscreenCanvas, 0, 0);
+/*  ctx.drawImage(offscreenCanvas, 0, 0);
 }
 
 // Add event listeners for controls
@@ -127,7 +127,7 @@ canvas.addEventListener('touchmove', (e) => {
 
 canvas.addEventListener('touchend', () => {
   isDragging = false;
-});
+});*/
 
 // Initial draw
 drawFractal();
