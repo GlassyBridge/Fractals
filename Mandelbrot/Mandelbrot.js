@@ -8,11 +8,11 @@ canvas.width = width;
 canvas.height = height;
 
 let maxIterations = 1000;   
-let zoom = 200;             
+//let zoom = 200;             
 let offsetX = width / 2;    
 let offsetY = height / 2;
 
-let isDragging = false;
+//let isDragging = false;
 let startX, startY;
 
 const offscreenCanvas = document.createElement('canvas');
@@ -60,7 +60,7 @@ function drawFractal() {
       drawPixel(x, y, iterations);
     }
   }
-
+}
 /*  ctx.drawImage(offscreenCanvas, 0, 0);
 }
 
